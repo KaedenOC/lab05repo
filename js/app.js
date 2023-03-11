@@ -13,7 +13,7 @@ function sum(a, b) {
   let string = 'The sum of ' + a + ' and ' + b + ' is ' + answer + '.';
   console.log(answer);
   let myArray = [answer, string];
-  return myArray;
+  return myArray; //returning array so i can use globally
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -35,7 +35,7 @@ function multiply(a, b) { //eslint-disable-line
   let mString = 'The product of ' + a + ' and ' + b + ' is ' + multAnswer + '.';
   console.log(multAnswer);
   let myArray = [multAnswer, mString];
-  return myArray;
+  return myArray; //returning array so i can use globally
 }
 
 // Here is the test for multiply(); uncomment it to run it
