@@ -9,7 +9,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) {
-  let answer = a + b;
+  let answer = a + b; //[0]
   let string = 'The sum of ' + a + ' and ' + b + ' is ' + answer + '.';
   console.log(answer);
   let myArray = [answer, string];
@@ -31,7 +31,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-  let multAnswer = a * b;
+  let multAnswer = a * b; //[0]
   let mString = 'The product of ' + a + ' and ' + b + ' is ' + multAnswer + '.';
   console.log(multAnswer);
   let myArray = [multAnswer, mString];
@@ -63,7 +63,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   let string1 = `${a} and ${b} and ${c} sum to ${sumTotal}.`;
   let string2 = `The product of ${a} and ${b} and ${c} is ${multTotal}.`;
   let myArray = [sumTotal, multTotal, string1, string2];
-  return myArray
+  return myArray;
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
@@ -94,7 +94,7 @@ function sumArray(sumArr) { //eslint-disable-line
 
 // Here is the test for sumArray(); uncomment it to run it
 
-testSumArray(testArray);
+// testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -110,8 +110,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-  // let mult1 = multiply(sumArr[0], sumArr[1])[0];
-  // let multTotal = multiply(mult1, sumArr[2])[0];
+
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
